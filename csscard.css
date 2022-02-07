@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(16, 16, 104);
+    color:white ;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 66px;
+}
+header>i{color: tomato;}
+#shop{width: 700px;
+    height: 60px;
+border:solid tomato 2px ;
+margin-left: auto;
+margin-right: auto;
+justify-content: flex-end;
+display: flex;
+margin-top: 60px;
+background-color: tomato;
+border-radius: 6px;
+margin-bottom: 40px;
+gap:460px;
+
+}
+#shop>button{
+    background-color: white;
+    color: tomato;
+    border-radius: 6px;
+    border: 2px solid tomato ;
+   padding: auto;
+  
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+#shop>button:hover{background-color: rgb(16, 16, 104);
+font-size: larger;}
+#shop>p{font-size: 20px;
+}
+.red{
+    color: red;
+}
+#cards{ background-color: white;
+    width: 700px;
+    color:black;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    display: block;
+    
+    padding: 20px;
+    
+}
+.card>img{ 
+    border: solid rgb(16, 16, 104);
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+.card{border:solid 3px tomato ;
+gap: 90px;
+width: 600px ;
+height: 90px ;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+padding: 20px;
+justify-items: center;}
+.card>button{height: 50px ;
+    padding: 20px;
+}
+section{
+gap:none;}
+.fa-heart{font-size: 30px;
+}
+.fa-trash-alt{
+    font-size: 40px;
+   
+    
+}
+footer{text-align: center;
+font-size: large;}
+
